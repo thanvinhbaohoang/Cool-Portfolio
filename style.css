@@ -269,7 +269,7 @@ nav ul li:hover {
 
 
 body {
-  background-image: linear-gradient(to right, #00001d, #14001b);
+  background-color:#222;
 }
 
 .home {
@@ -293,58 +293,58 @@ body {
 .floating-icons div:nth-child(1) {
   top: 25%;
   left: 25%;
-  animation: float 12s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+  animation: float 5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 
 .floating-icons div:nth-child(2) {
   top: 70%;
   left: 55%;
-  animation: float 11s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+  animation: float 5.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 .floating-icons div:nth-child(3) {
   top: 50%;
   left: 35%;
-  animation: float 13s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+  animation: float 5.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 .floating-icons div:nth-child(4) {
   top: 60%;
   left: 65%;
-  animation: float 11s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+  animation: float 5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 .floating-icons div:nth-child(5) {
   top: 12%;
   left: 44%;
-  animation: float 8s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+  animation: float 5.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 .floating-icons div:nth-child(6) {
   top: 32%;
   left: 84%;
-  animation: float 11s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+  animation: float 5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 .floating-icons div:nth-child(7) {
   top: 32%;
   left: 64%;
-  animation: float 9s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+  animation: float 5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 .floating-icons div:nth-child(8) {
   top: 80%;
   left: 22%;
-  animation: float 15s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+  animation: float 5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 .floating-icons div:nth-child(9) {
   top: 10%;
   left: 15%;
-  animation: float 11s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+  animation: float 5.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 .floating-icons div:nth-child(10) {
   top: 60%;
   left: 20%;
-  animation: float 13s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+  animation: float 5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 .floating-icons div:nth-child(11) {
   top: 60%;
   left: 80%;
-  animation: float 16s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+  animation: float 5.2s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 
 @keyframes float {
@@ -366,12 +366,9 @@ body {
 
 
 .sectionTitle {
-  display: flex;
-  flex-wrap: nowrap;
-  width: 300px;
-  padding: 50px 50%;
   align-content: center;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .container {
@@ -410,7 +407,7 @@ body {
 .container .card .content .icon-container{
   height: 100px;
   width: 100px;
-  background: #3665ff;
+  background: #393d49;
   border-radius: 50%;
   text-align: center;
   line-height: 50px;
@@ -462,6 +459,11 @@ body {
   font-weight:500;
 }
 
+.portfolio{
+  align-content: center;
+  text-align: center;
+  padding: 20px 40px;
+}
 .about {
   background-color: #232323;
 }
