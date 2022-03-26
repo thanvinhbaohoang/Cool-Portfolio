@@ -57,7 +57,7 @@ nav ul li:hover {
 .myName {
   width: 100%;
   height: 100vh;
-  background: #232323;
+  background-color: #232323;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -123,7 +123,7 @@ nav ul li:hover {
 
 .myName .box .wordCarousel .block {
   width: 0%;
-  height: 17px;
+  height: 20px;
   background: #1e8ee9;
   position: absolute;
   animation: secBlock 2s cubic-bezier(.74, .06, .4, .92) forwards;
@@ -269,7 +269,7 @@ nav ul li:hover {
 
 
 body {
-  background-image: linear-gradient(to top left, black, orange)
+  background-image: linear-gradient(to right, #00001d, #14001b);
 }
 
 .home {
@@ -293,65 +293,64 @@ body {
 .floating-icons div:nth-child(1) {
   top: 25%;
   left: 25%;
-  animation: float 10s cubic-bezier(0.215, 0.610, 0.355, 1) ;
-  
+  animation: float 12s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 
 .floating-icons div:nth-child(2) {
   top: 70%;
   left: 55%;
-  animation: float 10s cubic-bezier(0.215, 0.610, 0.355, 1) ;
+  animation: float 11s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 .floating-icons div:nth-child(3) {
   top: 50%;
   left: 35%;
-  animation: float 11s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+  animation: float 13s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 .floating-icons div:nth-child(4) {
   top: 60%;
   left: 65%;
-  animation: float 5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+  animation: float 11s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 .floating-icons div:nth-child(5) {
   top: 12%;
   left: 44%;
-  animation: float 6s cubic-bezier(0.215, 0.610, 0.355, 1) ;
+  animation: float 8s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 .floating-icons div:nth-child(6) {
   top: 32%;
   left: 84%;
-  animation: float 7s cubic-bezier(0.215, 0.610, 0.355, 1) ;
+  animation: float 11s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 .floating-icons div:nth-child(7) {
   top: 32%;
   left: 64%;
-  animation: float 9s cubic-bezier(0.075, 0.82, 0.165, 1) ;
+  animation: float 9s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 .floating-icons div:nth-child(8) {
   top: 80%;
   left: 22%;
-  animation: float 31s cubic-bezier(0.075, 0.82, 0.165, 1) ;
+  animation: float 15s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 .floating-icons div:nth-child(9) {
   top: 10%;
-  left: 10%;
-  animation: float 9s cubic-bezier(0.075, 0.82, 0.165, 1) ;
+  left: 15%;
+  animation: float 11s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 .floating-icons div:nth-child(10) {
   top: 60%;
   left: 20%;
-  animation: float 9s cubic-bezier(0.075, 0.82, 0.165, 1) ;
+  animation: float 13s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 .floating-icons div:nth-child(11) {
   top: 60%;
   left: 80%;
-  animation: float 14s cubic-bezier(0.075, 0.82, 0.165, 1) ;
+  animation: float 16s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 
 @keyframes float {
   0%{
-    transform: scale(0) translateY(0) rotate(0);
-    opacity: 0.2;
+    transform: scale(0) translateY(0) rotate(0) ;
+    opacity: 0;
   }
   100%{
     transform: scale(1) translateY(-180) rotate(360deg);
@@ -366,7 +365,14 @@ body {
 
 
 
-
+.sectionTitle {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 300px;
+  padding: 50px 50%;
+  align-content: center;
+  text-align: center;
+}
 
 .container {
   margin: 0 auto; /*Center the Div */
@@ -484,6 +490,6 @@ i {
 i:hover{
   transition: 0s;
   color: #ffbe31;
-  text-shadow: 0 0 120px #ffbe31;
+  text-shadow: 0 0 120px #ffdb8e;
 
 }
