@@ -459,6 +459,77 @@ body {
   font-weight:500;
 }
 
+/* My Services CSS */
+.services .boxes{
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+.services .boxes .box{
+  margin: 20px 0;
+  width: calc(100% / 4 - 20px);
+  height: 300px;
+  text-align: center;
+  border: 0.2px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 30px 10px;
+  background-color: #393d49;
+  color: rgb(226, 233, 255);
+  transition: all 0.4s ease;
+}
+.services .boxes .box:hover{
+  background: #ff6620;
+  box-shadow: 10px 10px #FFD19D;  
+  color: #fff;
+}
+.services .boxes .box .icon{
+  height: 50px;
+  width: 50px;
+  background: rgba(98, 140, 255, 0.562);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  color: #fff;
+  margin: 0 auto 10px auto;
+  transition: all 0.4s ease;
+}
+.services .boxes .box .icon i{
+color: white;
+}
+
+.services .boxes .box:hover .icon i{
+  color : #a57b4a;
+}
+.services .topic {
+  font-size: 500;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+.boxes .box:hover .icon{
+  background-color: #fff;
+  color: #ff6620;
+  box-shadow: 3px 3px #c99d66;  
+  
+}
+.services .boxes .box:hover .topic,
+.services .boxes .box:hover p{
+  color: #81d1ff;
+  transition: all 0.4s ease;
+}
+.services .boxes .box:hover .topic,
+.services .boxes .box:hover p{
+  color: #fff;
+}
+
+
+
+/* Portfolio Section */
 .portfolio{
   align-content: center;
   text-align: center;
