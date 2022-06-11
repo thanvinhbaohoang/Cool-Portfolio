@@ -4,37 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/faa006cbdf.js" crossorigin="anonymous"></script>
+    <title>Harold Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+
+    <!-- IMPORT FONTS FROM GOOGLE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/faa006cbdf.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
-    <!-- Nav Bar-->
-    <nav>
-        <div class = "logo">
-            <h1>Harold T</h1>
-        </div>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <h1 class="logo">Harold Than.</h1>
 
-        <ul class = "navTiles">
-            <a href ="">  <li>About</li>            </a>
-            <a href ="">  <li>My Skills</li> </a>
-            <a href ="">  <li>Work</li> </a>
-            <a href ="">  <li>Contact</li>       </a>
-            <a href ="">  <li>Blog</li>            </a>
-        </ul>
-
-        <div class ="contact-icons">
-            <a href = "https://github.com/thanvinhbaohoang" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
-            <i class="fa-brands fa-youtube"></i>
-            <a href ="https://www.linkedin.com/in/harold-t-08b773121/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"> </i> </a>
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#interests">My Interest</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
     </nav>
 
-
-
-
+    
     <!-- Home Section-->
-    <section class="home" id="home">
+    <section class="hero" id="home">
         <div class = "floating-icons">
             <div>            <i class="fa-brands fa-btc fa-spin fa-fade" style="--fa-animation-duration: 23s;"></i>            </div>
             <div><a href = "https://docs.google.com/presentation/d/1MDf6mNO4vXUD4PmzNfNRgtRQ_8hs7VX_psIm7ynzspU/edit#slide=id.g119da0e7613_1_25" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-vr-cardboard fa-spin fa-fade" style="--fa-animation-duration: 16s;"></i> </a></div>
@@ -44,13 +46,12 @@
             <div>            <i class="fa-solid fa-cube fa-spin fa-fade" style="--fa-animation-duration: 15s;"></i></div>
             <div><a href = "https://github.com/thanvinhbaohoang" target="_blank" rel="noopener noreferrer">  <i class="fa-brands fa-github fa-fade fa-spin" fa-spin" style="--fa-animation-duration: 15s;"></i></a> </i></div>
             <div>            <i class="fa-brands fa-ubuntu fa-spin" style="--fa-animation-duration: 15s;"></i></div>
-            <div>            <i class="fa-solid fa-atom fa-fade fa-spin" style="--fa-animation-duration: 15s;"></i></div>
+            <div>            <i class="fa-solid fa-atom fa-fade fa-spin"  style="--fa-animation-duration: 15s;"></i></div>
             <div>            <i class="fa-brands fa-android fa-fade fa-spin" fa-spin" style="--fa-animation-duration: 15s;"></i></div>
             <div>            <i class="fa-solid fa-code fa-fade fa-spin" fa-spin" style="--fa-animation-duration: 15s;"></i></div>
 
         </div>
     
-
         <div class="myName">
             <div class="box">
                 <div class="title">
@@ -62,7 +63,6 @@
                 <h4 class="wordCarousel">
                     <span class="block"></span>
                         <div>
-                            <!-- Use classes 2,3, or 4 to match the number of words -->
                             <ul class="flip4">
                                 <li>Web 3.0 Developer</li>
                                 <li>Digital Artist</li>
@@ -72,135 +72,151 @@
                             </ul>
                         </div>
                     </span>
-                </h4>
-
-               
+                </h4>               
             </div>
         </div>
-     
-       
-    
     </section>
 
-    <!-- Portfolio Section
-    <div class ="container">
-        <div class = "card">
-            <div class ="content">
-                <div class = "icon-container"> 
-                    <i class="fa-brands fa-ethereum"></i>
-                </div>
-                <h2> CEO</h2>
-                <h3> Web 3.0</h3>
-                <p> This guy is the greatest in the world.</p>
-                <a href ="">Read More</a>
+
+    <!-- Home Section-->
+    <div class ="home">
+        <div class="home-left">
+            <div class = "home-header-container">
+                <h1> Welcome To My Portfolio</h1>
             </div>
-        </div>
+           
+            <div class = "cta">
 
-        <div class = "card">
-            <div class ="content">
-                <div class = "icon-container"> 
-                    <i class="fa-solid fa-user-secret"></i>
+                <div class ="description">
+                    <p> <b>Harold Than</b> is my name and I love random stuffs. If you want a brief overview of my past experience, you can view it here instead of
+                    going through the entire site.</p>
                 </div>
-                <h2> CEO</h2>
-                <h3> Cybersecurity</h3>
-                <p> This guy is the greatest in the world.</p>
-                <a href ="">Read More</a>
             </div>
-        </div>
-
-        <div class = "card">
-            <div class ="content">
-                <div class = "icon-container"> 
-                    <i class="fa-solid fa-print"></i>
-                </div>
-                <h2> CEO</h2>
-                <h3> Digital Arts</h3>
-                <p> This guy is the greatest in the world.</p>
-                <a href ="">Read More</a>
-            </div>
-        </div>
-
-        <div class = "card">
-            <div class ="content">
-                <div class = "icon-container"> 
-                    <i class="fa-solid fa-vr-cardboard"></i>
-                </div>
-                <h2> CEO</h2>
-                <h3> AR/VR</h3>
-                <p> This guy is the greatest in the world.</p>
-                <a href ="">Read More</a>
-            </div>
-        </div>
-    </div> 
-     -->
-
-
     
-<!-- My Services Section Start -->
-<h1 class = "sectionTitle">My Services</h1>
- <section class="services" id="services">
-    <div class="content">
-      <div class="title"><span>My Services</span></div>
-      <div class="boxes">
- 
-        <div class="box">
-         <a href ="#">
-           <div class="icon">
-             <i class="fa-brands fa-ethereum"></i>
-           </div>
-           <div class="topic">Web 3.0 Development</div>
-           <p> Dapps, Decentralized Finance and Everything Free</p>
-         </a>
-      </div>
- 
- 
-        <div class="box">
-         <a href ="#">
-           <div class="icon">
-             <i class="fa-solid fa-user-secret"></i>
-           </div>
-           <div class="topic">Cybersecurity</div>
-           <p>Penetration Testing and Hacking</p>
-         </a>
-      </div>
-      
- 
-        <div class="box">
-         <a href ="#">
-           <div class="icon">
-             <i class="fas fa-paint-brush"></i>
-           </div>
-           <div class="topic">Digital Arts</div>
-           <p>From Video Editing, Special Effects to Digital Posters and 3D Renders</p>
-         </a>
-      </div>
-       
- 
-        <div class="box">
-          <a href ="#">
-           <div class="icon">
-             <i class="fa-solid fa-vr-cardboard"></i>
-           </div>
-           <div class="topic">AR/VR Development</div>
-           <p>Virtual Reality Development for the Metaverse</p>
-         </a>
-      </div>
- 
-    </div>
-    </div>
-  </section>
+            <button type="button" class="sign-up-box">My Resume</button>
 
-  
-    <div class = "portfolio">
-        <h1 class = "sectionTitle"> AR/VR Projects</h1>
-        <h2> Ad-VR-Tisement</h2>
-        <iframe src="https://drive.google.com/file/d/1HeuPm2QPClNZvZm97JMNWnSJtsgGXCKO/preview" width="640" height="480" allow="autoplay"></iframe>
-        <h2> Boid Cage Diving</h2>
-        <iframe src="https://drive.google.com/file/d/1P37yKZbt_JPVgnvFZBTysCICTeGzqM69/preview" width="640" height="480" allow="autoplay"></iframe>
-        <h2>GuitAR Hero</h2>
-        <iframe src="https://drive.google.com/file/d/1HCi1Ek6W6YdJ65O-7sTQtJvd47DRAdZR/preview" width="640" height="480" allow="autoplay"></iframe>
-        <h2> Spooderman</h2>
-        <iframe src="https://drive.google.com/file/d/1P37yKZbt_JPVgnvFZBTysCICTeGzqM69/preview" width="640" height="480" allow="autoplay"></iframe>
+        </div>
+        </div>
+
+
+    <!-- About Me Section-->
+    <div class = "about-section" id="about">
+        <div class = "image-container"></div>
+        <div class = "about-right">
+            <h1>About Me</h1>
+            <p> Hello, my name is Harold Than and I am a <b>Computer Student</b> at <b>Dartmouth College</b>. I am an avid reader of Austrian Economics and Libertarian Philosophy.
+                This ideological background reflects through my technical interests and thus, I am passionate about decentralized and Open-Source technology.
+            </p>
+        </div>
+
+    </div>
+    
+    <!-- Products Section-->
+    <!-- All Images Taken From Ethereum.org-->
+    <div class = "product-section" id="interests">
+        <div class = "product-title-section">
+            <div class = "left">
+                <h1>My Interests</h1>
+                <p>I like some things here and there. Coding and Building decentralized technology to create a more accessible Internet is my passion.</p>    
+            </div>
+            
+            <div class = "right">
+            </div>
+
+        </div>
+        <div class ="tiles" >
+            <div class = "tile">
+                <div class ="image-box">
+                    <img src ="Images/doge.webp">
+                </div>
+                <div class ="text-box">
+                    <h3 class = "tile-title"> <i class="fa-brands fa-ethereum"> </i>FOSSCAD</h3>
+                    <p class ="tile-description">Printable FOSS? Ghost Toys</p>
+                </div>
+            </div>
+            <div class = "tile">
+                <div class ="image-box">
+                    <img src ="Images/cyber.webp">
+                </div>
+                <div class ="text-box">
+                    <h3 class = "tile-title"><i class="fa-solid fa-user-secret"></i>Cybersecurity</h3>
+                    <p class ="tile-description">Penetration Testing and Hacking</p>
+                </div>
+            </div>
+            <div class = "tile">
+                <div class ="image-box">
+                    <img src ="Images/virtual.webp">
+                </div>
+                <div class ="text-box">
+                    <h3 class = "tile-title"><i class="fa-solid fa-vr-cardboard"></i>AR/VR Development</h3>
+                    <p class ="tile-description">Metaverse and All The Fun Things</p>
+                </div>
+            </div>
+            <div class = "tile">
+                <div class ="image-box">
+                    <img src ="Images/web3.webp">
+                </div>
+                <div class ="text-box">
+                    <h3 class = "tile-title"><i class="fa-solid fa-folder-closed"></i>Web 3.0 Development</h3>
+                    <p class ="tile-description">A Decentralized Internet of Values For A Better World.</p>
+                </div>
+            </div>
+          
+        </div>
+        <div class= "product-container">
+            <img src =""> <!--Background Image Placeholder-->
+            <div class=  "paragraph-container"></div>
+        </div>
+        
+    </div>
+
+
+    <div class ="contact-section" id="contact">
+        <div class ="contact-left">
+            <div class = "contact-title">
+                <h1>Contact Me</h1>
+                <p>I love creative and freelance work.</p>
+            </div>
+            <div class = "contact-boxes">
+                <div class ="name-and-email">
+                    <input type="text" placeholder="Name" class = "contact-name">
+                    <input type="text" placeholder="Email"  class = "contact-email">
+                </div>
+                
+                <input type="text" placeholder="Subject" class = "contact-subject">
+
+                <textarea placeholder="Message" class= "contact-message"></textarea>
+            </div>
+
+
+            <div class = "submit-box">
+                <input type="submit" class="contact-submit" value="Message Me!">
+            </div>
+
+        </div>
+
+
+        <div class = "contact-right">
+            <div class = "contact-card">
+                <div class = "image-container">
+                </div>
+                <h3> Harold Than </h3>
+                <div class ="info">
+                    <p> Email: thanvinhbaohoang@gmail.com</p>
+                    <p> Phone: (666)-6969-420</p>
+                    <p> Address: 69 Lame St, Boston, MA</p>
+                </div>
+                    
+            </div>
+           
+        </div>
+        
+    </div>
+    
+
+    <footer>
+        <p>Copyright &copy; haroldt.me</p>
+      </footer>
 
 </body>
 </html>
